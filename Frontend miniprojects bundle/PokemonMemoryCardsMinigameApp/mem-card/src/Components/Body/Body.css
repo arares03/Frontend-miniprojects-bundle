@@ -1,0 +1,12 @@
+.body {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body > * {
+  padding: 20px;
+}

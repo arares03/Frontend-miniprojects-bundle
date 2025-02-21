@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" class="stylesheet">
+</head>
+
+
+<body>
+    <main class="maincontainer">
+        <div class="leftcontainer">
+            <div class="odinlogo">
+                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+                    alt="https://media.mythopedia.com/2FSbcJFFOlI6LQEMLqNK0G/e92f7c50937d51e5b53ae42fd78a02dc/odin-norse-ruler-of-the-aesir-gods.jpg?w=1280&q=50&fit=crop&ar=3:2&crop=faces,entropy&auto=compress,format">
+                <p>ODIN</p>
+            </div>
+        </div>
+        <div class="rightcontainer">
+            <div class="rightcontainer-element" id="blanktext">
+                <p> This is not a real online service! You know you need something<br>
+                    like this in your life to help you realize your deepest dreams.<br>
+                    Sign up <em>now</em> to get started.<br><br>
+                    You <em>know</em> you want to.
+    </p>
+            </div>
+            <form class="rightcontainer-element" id = "theform">
+                <div class="firsttext">
+                    <p id="h1">Let's do this!</p>
+                </div>
+                <div class="maindiv">
+                    <div class="subdiv1">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first_name"><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br>
+
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" class = "good-input"><br>
+
+                        <p class = "pass" >Passwords do not match!</p>
+                    </div>
+                    <div class="subdiv2">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last_name"><br>
+
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"
+                            placeholder="Digits only (10 digits)"><br>
+
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm_password" class = "good-input"><br>
+
+                    </div>
+
+                </div>
+            </form>
+            <div class="rightcontainer-element" id="ending">
+                <button type="submit" form="theform" >Create Account</button>
+                <div class="final-text">
+                    <p class="final-text">Already have an account?</p>
+                    <a id="login-a" href="https://google.com">Log in</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/scripts.js"></script>
+
+</html>

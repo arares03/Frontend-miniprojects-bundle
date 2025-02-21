@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create form</title>
+    <link rel="stylesheet" href="./create.css" >
+</head>
+<body>
+  <header>
+    <h1 id="titleheader">"This is a default header!"</h1>
+    <nav>
+      <ul class="nav_links">
+        <li class = "nav_links_elem">
+          <a href="./index.html" >
+            Go home
+          </a>
+        </li>
+        <li class ="nav_links_elem">
+          <a href="./about.html" >
+            About
+          </a>
+        </li>
+        <li class = "nav_links_elem">
+          <a href="./create.html">
+            Create
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <main>
+        <div class="big-flexbox">
+          <div class="flexbox-item">
+            <h2 class = "title-item">Create TODO</h2>
+            <form class="form-to-add">
+              <div class="element group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="element-group>">
+                <label for="location">Location</label>
+                <input  
+                  type="text"
+                  id="location"
+                  name="location"
+                  class="input-field"
+                  required = "true";
+                />
+              </div>
+              <div class="element-group">
+                <label for="date">Dateeeeee </label>
+                <input type="date" id="date" name="date" class="input-field" required/>
+              </div>
+              <div class="element-group">
+                <label for="todo">Todoooooo:</label>
+                <input type="text" id="todo" name="todo" class="input-field" required/>
+              </div>
+              <div class="element-group" id="buton">
+                <button type="submit" id = "submitbutton">Submit</button>
+              </div>
+            </form>
+          </div>
+         
+        </div>
+      </main>
+</body>
+<footer class="footer">
+  <div class="footer-text">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quia
+      totam, possimus facilis pariatur, ipsam odio dignissimos cupiditate
+      ab, at accusamus sapiente. Omnis incidunt excepturi a id dolorem eaque
+      possimus.
+    </p>
+  </div>
+  <ul class="footer-text">
+    <li><a href="blank">Links</a></li>
+    <li><a href="blank">Links</a></li>
+    <li><a href="blank">Links</a></li>
+  </ul>
+  <ul class="footer-text">
+    <li><a href="blank">Links</a></li>
+    <li><a href="blank">Links</a></li>
+    <li><a href="blank">Links</a></li>
+  </ul>
+</footer>
+<script type = "module" src = "./createelements.js"></script>
+</html>

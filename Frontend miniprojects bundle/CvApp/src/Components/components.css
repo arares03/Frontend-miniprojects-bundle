@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@1,700&display=swap');
+
+.component {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+
+
+.titles {
+    cursor: pointer;
+    font-family: 'GFS Neollenic', sans-serif;
+    font-size: xx-large;
+}
+
+.expanded {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F0F0F0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.expanded p {
+    transition: opacity .5s, margin-top .5s, margin-bottom .5s;
+    color: #707070;
+}
+
+.visible {
+    display: flex;
+    align-items: center;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.hide-others {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstclass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+}

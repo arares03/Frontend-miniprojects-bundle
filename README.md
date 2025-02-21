@@ -10,7 +10,7 @@ CSS & Styled Components: Styling approaches for responsive and maintainable desi
 Redux-Saga: Handles side effects and asynchronous tasks in a predictable way.
 Axios: Simplifies API requests and data fetching.
 
-#Projects
+# Projects
 1. CvApp
 A simple application for building and managing resumes.
 Users can input their education, work experience, and skills.
